@@ -22,8 +22,8 @@ A React.js web application that displays live cryptocurrency market data — pri
 |-------|------------|
 | Frontend | React.js, HTML5, CSS3 |
 | Styling | Tailwind CSS |
-| HTTP client | Axios |
-| Data source | Cryptocurrency market APIs |
+| HTTP Client | Axios |
+| Data Source | Cryptocurrency market APIs |
 
 ## Getting Started
 
@@ -41,26 +41,31 @@ npm install
 npm start
 ```
 
-The app will open at http://localhost:3000
+The app opens at `http://localhost:3000`.
 
-Build for Production
+### Build for Production
+
+```bash
 npm run build
+```
 
-Project Structure
-text
+## Project Structure
+
+```
 CoinDom/
-├── assets/         # Recovered CSS and JS assets
-├── screenshots/    # Project screenshots
-├── src/            # React source code
-├── index.html      # Entry point
-├── tailwind.config.js
-└── README.md
-Author
-Muhammad Ahmad Javed
+├── assets/              # CSS and JS assets
+├── screenshots/         # Project screenshots
+├── src/                 # React source code
+├── index.html           # Entry point
+├── tailwind.config.js   # Tailwind configuration
+└── README.md            # This file
+```
+
+## Author
+
+**Muhammad Ahmad Javed**
 BS Computer Science (Hons.), University of Agriculture, Faisalabad
 
-Portfolio: imahmad.xyz
-
-GitHub: @m-ahmadjaved
-
-LinkedIn: m-ahmadjaved
+- Portfolio: [imahmad.xyz](https://imahmad.xyz)
+- GitHub: [@m-ahmadjaved](https://github.com/m-ahmadjaved)
+- LinkedIn: [m-ahmadjaved](https://linkedin.com/in/m-ahmadjaved)
